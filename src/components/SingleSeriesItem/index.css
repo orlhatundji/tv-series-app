@@ -1,0 +1,10 @@
+.series-cast{
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color:grey;
+}

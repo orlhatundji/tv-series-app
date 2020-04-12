@@ -12,7 +12,6 @@ class Character extends Component {
     }
 
     componentDidMount() {
-        
         const { id} = this.props.match.params;
         const { hash } = this.props.location;
         const characterimage = hash.split('##');   
@@ -20,7 +19,7 @@ class Character extends Component {
     }
 
     render() {
-
+        // console.log(this.state);
         return (           
             
             <div>
@@ -29,13 +28,13 @@ class Character extends Component {
 
                     <div className="character">
                         {this.state.name} <br /><br />
-                        <img src={this.state.characterimage} />
+                        <img src={this.state.characterimage} alt={this.state.name} />
                     </div>
                 }
                 {this.state.personimage &&
                     <div className="person">
                         <b />
-                        <img src={this.state.personimage} />
+                        <img src={this.state.personimage} alt={this.state.name}/>
                     </div> 
 
                 }

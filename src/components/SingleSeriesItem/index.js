@@ -9,7 +9,7 @@ const SingleCharacter = ({ person }) => (
     
 
     <li>
-        <Link to={`character/${person.character.name + '##' + person.character.image.medium || "" + '##' + person.person.image.medium || ""}`} >
+        <Link to={`/series/character/${person.character.name + '##' + person.character.image.medium + '##' + person.person.image.medium || ""}`} >
             {person.character.name}
         </Link>
     </li>
@@ -23,7 +23,10 @@ class SingleSeriesItem extends Component {
         if(show_cast){
             for (var i=0; i<show_cast.length; i++){
                 if (!show_cast[i].person.image){
-                    allimages = false;
+                    show_cast[i].person["image"] = {"medium":""};
+                }
+                if (!show_cast[i].character.image){
+                    show_cast[i].character["image"] = {"medium":""};
                 }
             }
         }
@@ -39,9 +42,12 @@ class SingleSeriesItem extends Component {
                         <p>Premiered - {show.premiered}</p>
                         <p>Rating - {show.rating.average}</p>
                         <p>Episodes - {show._embedded.episodes.length}</p>
-                        <p>
-                            <img alt="show" src={show.image.medium} />
-                        </p>
+                        { show.image.medium && 
+                            <p>
+                                <img alt="show" src={show.image.medium} />
+                            </p> 
+                        }
+                        
                     </div>
                 }
                 

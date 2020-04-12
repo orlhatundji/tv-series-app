@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tv-series-app/static/css/main.b1fade94.chunk.css",
-    "main.js": "/tv-series-app/static/js/main.59032fcb.chunk.js",
-    "main.js.map": "/tv-series-app/static/js/main.59032fcb.chunk.js.map",
+    "main.js": "/tv-series-app/static/js/main.3e09b2ca.chunk.js",
+    "main.js.map": "/tv-series-app/static/js/main.3e09b2ca.chunk.js.map",
     "runtime-main.js": "/tv-series-app/static/js/runtime-main.d41d245f.js",
     "runtime-main.js.map": "/tv-series-app/static/js/runtime-main.d41d245f.js.map",
     "static/js/2.7687cb9c.chunk.js": "/tv-series-app/static/js/2.7687cb9c.chunk.js",
     "static/js/2.7687cb9c.chunk.js.map": "/tv-series-app/static/js/2.7687cb9c.chunk.js.map",
     "index.html": "/tv-series-app/index.html",
-    "precache-manifest.45dab8fddff32338c2580ad3937c3da5.js": "/tv-series-app/precache-manifest.45dab8fddff32338c2580ad3937c3da5.js",
+    "precache-manifest.d9c561f34fc0b133cbe0df5e51e7b8e4.js": "/tv-series-app/precache-manifest.d9c561f34fc0b133cbe0df5e51e7b8e4.js",
     "service-worker.js": "/tv-series-app/service-worker.js",
     "static/css/main.b1fade94.chunk.css.map": "/tv-series-app/static/css/main.b1fade94.chunk.css.map",
     "static/js/2.7687cb9c.chunk.js.LICENSE.txt": "/tv-series-app/static/js/2.7687cb9c.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.d41d245f.js",
     "static/js/2.7687cb9c.chunk.js",
     "static/css/main.b1fade94.chunk.css",
-    "static/js/main.59032fcb.chunk.js"
+    "static/js/main.3e09b2ca.chunk.js"
   ]
 }
